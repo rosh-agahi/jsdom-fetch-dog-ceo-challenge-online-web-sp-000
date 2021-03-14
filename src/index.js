@@ -39,3 +39,7 @@ function addBreed(breed) {
   breedUl.appendChild(newLi);
   newLi.addEventListener("click", changeColor)
 }
+
+function changeColor(event) {
+  event.target.style.color = "yellow";
+}
